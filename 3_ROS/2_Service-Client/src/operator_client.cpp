@@ -2,6 +2,17 @@
 # include "service_client/Operation.h"
 # include <iostream>
 
+/*
+    polynomial counter
+
+    how to run :
+        1. rosrun service_client operator_client_node x coef1 coef2
+           result = coef1 * x + coef2
+        1. rosrun service_client operator_client_node x coef1 coef2 coef3
+           result = coef1 * x^2 + coef2 * x + coef3
+        
+*/
+
 int main(int argc, char** argv) {
     ros::init(argc, argv, "operator_client_node");
 

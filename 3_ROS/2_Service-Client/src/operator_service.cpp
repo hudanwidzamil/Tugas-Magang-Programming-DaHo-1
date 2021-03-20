@@ -2,6 +2,10 @@
 # include "service_client/Operation.h"
 # include <cmath>
 
+/*
+    ROS operator service
+*/
+
 bool add(service_client::Operation::Request& req,
          service_client::Operation::Response& res) 
 {
