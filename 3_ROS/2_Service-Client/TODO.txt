@@ -1,4 +1,0 @@
-Implement a simple ROS service and client
-
-reference :
-http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29
