@@ -19,16 +19,12 @@ int main(int argc, char** argv) {
 
     int duration = 5;
     int sign = 1;
-    bool firstCheck = true;
 
     while(ros::ok()) {
         if (ros::Time::now() - currentTime > ros::Duration(duration)) {
             sign *= -1;
             currentTime = ros::Time::now();
-            if (firstCheck) {
-                firstCheck = true;
-                duration = 10;
-            }
+            duration = 10;
         }
         msg.x += sign*5;
         msg.y += sign*5;
