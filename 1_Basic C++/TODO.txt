@@ -1,1 +1,19 @@
-Impelemt basic C++ problems
+Buatlah sebuah program dalam C++ yang dapat mengurutkan nama dan usia dari kumpulan data yang diinput satu persatu.
+
+Program pertama-tama menerima input jumlah orang yang kemudian datanya akan diurutkan.
+Kemudian untuk sejumlah itu program terus menerima data nama dan usia.
+Cetak dalam urutan dari usia dari tua ke muda dengan urutan nama alfabetik.
+
+Contoh:
+
+Input:
+3
+Andini 25
+Bambang 19
+Andi 25
+
+
+Output:
+Andi 25
+Andini 25
+Bambang 19
