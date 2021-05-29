@@ -2,7 +2,8 @@ Terdapat kelas Titik dan Garis
 Kelas Titik menggambarkan sebuah titik pada koordinat kartesian dengan format (x,y)
 Kelas Garis memanfaatkan kelas titik untuk membuat sebuah garis yang dikonstruksi dengan dua titik.
 
-Implementasikan sebuah main program yang memanfaatkan kelas titik dan garis tersebut.
+Implementasikan kelas Titik dan Garis berdasarkan file header yang ada.
+Lalu implementasikan sebuah main program yang memanfaatkan kelas titik dan garis tersebut.
 Hal-hal yang harus dilakukan:
 1. Buat titik di (0,0)
 2. Buat titik di (1,1)
