@@ -29,19 +29,27 @@ int main() {
             }
         }
 
-        if (nama[max_idx_umur] < nama[i]) {
-            int temp_umur;
-            string temp_nama;
+        int max_idx_nama;
 
-            temp_umur = umur[i];
-            temp_nama = nama[i];
+        max_idx_nama = max_idx_umur;
 
-            umur[i] = umur[max_idx_umur];
-            nama[i] = nama[max_idx_umur];
-
-            umur[max_idx_umur] = temp_umur;
-            nama[max_idx_umur] = temp_nama;
+        for (int j = i + 1; j < n; j++) {
+            if (umur[max_idx_umur] == umur[j] && nama[max_idx_nama] > nama[j]) {
+                max_idx_nama = j;
+            }
         }
+
+        int temp_umur;
+        string temp_nama;
+
+        temp_umur = umur[i];
+        temp_nama = nama[i];
+
+        umur[i] = umur[max_idx_nama];
+        nama[i] = nama[max_idx_nama];
+
+        umur[max_idx_nama] = temp_umur;
+        nama[max_idx_nama] = temp_nama;
 
     }
 
@@ -53,7 +61,7 @@ int main() {
 }
 
 // Perintah run
-// g++ -o main 16520010_BrianaldoPhandiarta.cpp
+// g++ -o main main.cpp
 // ./main
 // Input:
 // 3
