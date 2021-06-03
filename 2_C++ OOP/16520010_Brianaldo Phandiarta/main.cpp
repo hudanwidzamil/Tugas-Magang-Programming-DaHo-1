@@ -32,7 +32,7 @@ int main() {
 
     return 0;
 }
-// Perintah ruh
+// Perintah run
 // g++ -o main main.cpp Garis.cpp Titik.cpp
 // ./main
 //
