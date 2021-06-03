@@ -31,3 +31,4 @@ Hal-hal yang harus dilakukan:
 19. Cetak apakah sejajar atau tidak
 
 ## Attachment
+![Attachment](https://github.com/msyahrulsp/Tugas-Magang-Programming-DaHo-1/blob/trim/2_C%2B%2B%20OOP/attach.png)
