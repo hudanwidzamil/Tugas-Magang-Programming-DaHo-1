@@ -16,8 +16,6 @@ class Titik {
 
         Titik(float x, float y);
 
-        Titik(const Titik& titik);
-
         float getX();
 
         void setX(float x);

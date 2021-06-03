@@ -12,7 +12,7 @@ int main() {
     }
 
     Titik p5(0,0), p6(3,4);
-    Titik p7(p5), p8(p6);
+    Titik p7(p5.getX(),p5.getY()), p8(p6.getX(),p6.getY());
 
     Garis l3(p5,p6), l4(p7,p8);
 

@@ -13,12 +13,6 @@ Titik::Titik(float x, float y) {
     this->y = y;
 }
 
-Titik::Titik(const Titik& titik) {
-    // Copy constructor
-    this->x = titik.x;
-    this->y = titik.y;
-}
-
 // Methods
 float Titik::getX() {
     return this->x;

@@ -20,11 +20,11 @@ float Garis::gradien() {
 }
 
 bool Garis::sejajar(Garis& garis) {
-    return this->gradien() == garis.gradien();
+    return fabs(this->gradien() - garis.gradien()) < EPSILON;
 }
 
 bool Garis::tegakLurus(Garis& garis) {
-    return this->gradien() * garis.gradien() == -1;
+    return fabs(this->gradien() * garis.gradien() + 1) < EPSILON;
 }
 
 void Garis::printGaris() {
