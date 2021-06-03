@@ -8,3 +8,4 @@ Kemudian untuk sejumlah itu program terus menerima data nama dan usia.
 Kmeudian program akan mencetak dalam urutan dari usia dari tua ke muda dengan urutan nama alfabetik.
 
 ## Attachment
+![Attachment](https://github.com/msyahrulsp/Tugas-Magang-Programming-DaHo-1/blob/trim/1_Basic%20C%2B%2B/attach.png)
