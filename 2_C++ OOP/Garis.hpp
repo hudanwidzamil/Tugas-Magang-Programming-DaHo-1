@@ -1,14 +1,14 @@
 # ifndef __GARIS__
 # define __GARIS__
 
-# include <iostream>
-# include "Titik.hpp"
+
+# include "Titik.cpp"
 
 using namespace std;
 
 class Garis {
     private :
-
+    
         const float EPSILON = 0.0001;
 
         Titik p1, p2;
